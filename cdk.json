@@ -1,5 +1,5 @@
 {
-  "app": "deno run -A app.ts",
+  "app": "deno run -A --unstable app.ts",
   "watch": {
     "include": ["**"],
     "exclude": [

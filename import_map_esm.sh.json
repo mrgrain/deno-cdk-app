@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "npm:aws-cdk-lib": "https://esm.sh/aws-cdk-lib@2.37.0"
+  }
+}

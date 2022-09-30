@@ -1,4 +1,4 @@
-import cdk from "https://esm.sh/aws-cdk-lib@2.36.0";
+import cdk from "npm:aws-cdk-lib";
 const app = new cdk.App();
 const stack = new cdk.Stack(app, "DenoStack");
 
