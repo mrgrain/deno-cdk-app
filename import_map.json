@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "aws-cdk-lib": "npm:aws-cdk-lib@2.50.0",
+    "aws-cdk-lib/aws-s3": "npm:aws-cdk-lib@2.50.0/aws-s3"
+  }
+}
