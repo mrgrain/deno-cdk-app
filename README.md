@@ -1,28 +1,43 @@
 # AWS CDK with Deno
 
-This is an experimental repo to explore how the AWS CDK can be used with Deno.
+This is an experimental repository to explore how the AWS CDK can be used with Deno.
 
 ## Getting started
 
-Run `deno run -A --unstable npm:aws-cdk synth`
+It's as easy as:
 
-`app.ts` contains the full CDK app with Deno.
-`cdk.json` points CDK at the Deno app.
+```console
+deno task cdk synth
+```
 
-## Install the CLI
+`app.ts` contains the CDK app using Deno\
+`cdk.json` points CDK at the Deno app: `deno run -A app.ts`
+
+## Run the CLI directly
+
+Instead of using a task, the CLI can be invoked directly:
+
+```console
+deno run -A npm:aws-cdk synth
+```
+
+## Install the CLI globally
 
 It's possible to globally install the CLI:
-`deno install -frA --unstable -n cdk npm:aws-cdk`
+
+```console
+deno install -frA -n cdk npm:aws-cdk
+```
 
 The same command will also update if a newer version is available.
 
+Now using CDK can be shortened to  `cdk synth`.\
+However global installation is not recommended, because the versions of the cli and lib can diverge easily.
+
 ## Not working
 
-* **NPM: Import Map with generic submodules**\
-  Built-in npm support fails with error `Failed to resolve the specifier ""aws-cdk-lib/aws-s3"" as its after-prefix portion ""aws-s3"" could not be URL-parsed relative to the URL prefix`.\
-  However it works with explicitly specifying the submodule.
+### NPM: VS Code Deno extension
 
-* **NPM: VS Code Deno extension**\
-  There is an issue with the VS Code extension and/or language server not finding the correct types.\
-  No imports are found and any usage of constructs and classes will be red underlined.\
-  However the runtime handles the code correctly.
+Still some issues with the VS Code extension and/or language server.\
+Npm specifiers in import maps require the use of `npm:/` prefix, which causes issues in VS Code:\
+`Uncached or missing remote URL: "npm:/aws-cdk-lib@2.51.0"`
