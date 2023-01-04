@@ -1,6 +1,6 @@
 # AWS CDK with Deno
 
-This is an experimental repository to explore how the AWS CDK can be used with Deno.
+Example repository how to use the AWS CDK with Deno.
 
 ## Getting started
 
@@ -33,11 +33,3 @@ The same command will also update if a newer version is available.
 
 Now using CDK can be shortened to  `cdk synth`.\
 However global installation is not recommended, because the versions of the cli and lib can diverge easily.
-
-## Not working
-
-### NPM: VS Code Deno extension
-
-Still some issues with the VS Code extension and/or language server.\
-Npm specifiers in import maps require the use of `npm:/` prefix, which causes issues in VS Code:\
-`Uncached or missing remote URL: "npm:/aws-cdk-lib@2.51.0"`

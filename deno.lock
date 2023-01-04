@@ -3,20 +3,20 @@
   "remote": {},
   "npm": {
     "specifiers": {
-      "aws-cdk": "aws-cdk@2.51.1",
-      "aws-cdk-lib@2.51.0": "aws-cdk-lib@2.51.0"
+      "aws-cdk-lib@2.59.0": "aws-cdk-lib@2.59.0",
+      "aws-cdk@2.59.0": "aws-cdk@2.59.0"
     },
     "packages": {
-      "@aws-cdk/asset-awscli-v1@2.2.18": {
-        "integrity": "sha512-yEbAoHA0IcTDw17swJUiRns9QDQR6+mF8J3hQqZ1S8KaK+dz8v0cVOhx+nv4EPyZYo3HDvphSX+sasbXUmVwoA==",
+      "@aws-cdk/asset-awscli-v1@2.2.49": {
+        "integrity": "sha512-Qd5bdLlC/sphWQQPNn7etKXWCh+fij7DWxtkIwvhhZ+LM6UEApGLS8sBLBQcRO2ZQdEuNb+zeClUy+3DNojfeg==",
         "dependencies": {}
       },
       "@aws-cdk/asset-kubectl-v20@2.1.1": {
         "integrity": "sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==",
         "dependencies": {}
       },
-      "@aws-cdk/asset-node-proxy-agent-v5@2.0.24": {
-        "integrity": "sha512-DW5p6hbcdUUA9a8yO4s8vymUKYIbo+ajxbQiVf+NhqqCgSCTTgswIb9trTPCmi/Y4L2+SQZtkFMrFwPOC1NASg==",
+      "@aws-cdk/asset-node-proxy-agent-v5@2.0.38": {
+        "integrity": "sha512-BBwAjORhuUkTGO3CxGS5Evcp5n20h9v06Sftn2R1DuSm8zIoUlPsNlI1HUk8XqYuoEI4aD7IKRQBLglv09ciJQ==",
         "dependencies": {}
       },
       "@balena/dockerignore@1.0.2": {
@@ -27,17 +27,17 @@
         "integrity": "sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==",
         "dependencies": {}
       },
-      "aws-cdk-lib@2.51.0": {
-        "integrity": "sha512-x/XXquLJ30QeyrC7HrXeueD+F5ayXEHxYlOlNEAcMIdpzhvojSHtfsyY3x0FeodHT9ycJH8RAUV+QZtmZV9mrw==",
+      "aws-cdk-lib@2.59.0": {
+        "integrity": "sha512-FT6QRsou8TibQcz/TqI3rEkB9EBVF5Om5lv9MXz/5qiKehWRbKZVX0I0l/SSAvGSmdTU5Pfr+WRBTk51oNMAdw==",
         "dependencies": {
-          "@aws-cdk/asset-awscli-v1": "@aws-cdk/asset-awscli-v1@2.2.18",
+          "@aws-cdk/asset-awscli-v1": "@aws-cdk/asset-awscli-v1@2.2.49",
           "@aws-cdk/asset-kubectl-v20": "@aws-cdk/asset-kubectl-v20@2.1.1",
-          "@aws-cdk/asset-node-proxy-agent-v5": "@aws-cdk/asset-node-proxy-agent-v5@2.0.24",
+          "@aws-cdk/asset-node-proxy-agent-v5": "@aws-cdk/asset-node-proxy-agent-v5@2.0.38",
           "@balena/dockerignore": "@balena/dockerignore@1.0.2",
           "case": "case@1.6.3",
-          "constructs": "constructs@10.1.170",
+          "constructs": "constructs@10.1.209",
           "fs-extra": "fs-extra@9.1.0",
-          "ignore": "ignore@5.2.0",
+          "ignore": "ignore@5.2.4",
           "jsonschema": "jsonschema@1.4.1",
           "minimatch": "minimatch@3.1.2",
           "punycode": "punycode@2.1.1",
@@ -45,8 +45,8 @@
           "yaml": "yaml@1.10.2"
         }
       },
-      "aws-cdk@2.51.1": {
-        "integrity": "sha512-c60bIcMfe/gn4qkw/TZvqw+DxVGFn25D624RcciLxIAI/t9v2taaPfIdlCVXDSr3qfy0Oc7GpEh3jL9I/RpVFw==",
+      "aws-cdk@2.59.0": {
+        "integrity": "sha512-5xKh+nC6wLsjYGwA+YYbX9ZonJLYmthxSZy8pK/Bm9rL2mFpnMKvQZJz67L6ghOt1XumoB1vZbIhptln68jTuw==",
         "dependencies": { "fsevents": "fsevents@2.3.2" }
       },
       "balanced-match@1.0.2": {
@@ -68,8 +68,8 @@
         "integrity": "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==",
         "dependencies": {}
       },
-      "constructs@10.1.170": {
-        "integrity": "sha512-kFEwQ/iqn/DzpHR+BJcn6cQjGaPwmICeaPUjjbPgq7GL7i8twcyRXb1337NdVsnxBQT1g8AOFdWh20LTomGLUw==",
+      "constructs@10.1.209": {
+        "integrity": "sha512-BLvvM9bsKg4AGgeHWzT2elFh4UCFgmF4JyRjFcUMmHPJzgmErSwzUen/jVP4kI28nahakJXouiff6KZt0ey+3Q==",
         "dependencies": {}
       },
       "fs-extra@9.1.0": {
@@ -89,8 +89,8 @@
         "integrity": "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==",
         "dependencies": {}
       },
-      "ignore@5.2.0": {
-        "integrity": "sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==",
+      "ignore@5.2.4": {
+        "integrity": "sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==",
         "dependencies": {}
       },
       "jsonfile@6.1.0": {
