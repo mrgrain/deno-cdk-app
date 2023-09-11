@@ -1,6 +1,6 @@
 {
   "importMap": "import_map.json",
   "tasks": {
-    "cdk": "deno run -A npm:aws-cdk@2.59.0"
+    "cdk": "deno run -A npm:aws-cdk@2.95.1"
   }
 }
